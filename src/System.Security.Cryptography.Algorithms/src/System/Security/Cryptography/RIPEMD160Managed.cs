@@ -2,6 +2,15 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
+// Contributed to .NET Foundation by Darren R. Starr - Conscia Norway AS
+//
+// Awaiting permission from Antoon Bosselaers - Katholieke Universiteit Leuven 
+//   for permission/clarification regarding the use the original code from which
+//   this C# port is created.
+//  Until he clarifies the license status of his code (referenced at
+//   https://homes.esat.kuleuven.be/~bosselae/ripemd160.html) the legal license
+//   status of this code is not clear. 
+
 using System;
 using System.Linq;
 using System.Text;
@@ -379,7 +388,7 @@ namespace System.Security.Cryptography
 
         public RIPEMD160Managed()
         {
-            MDinit(ref MDbuf);
+            Initialize();
         }
 
         protected override void HashCore (byte[] array, int ibStart, int cbSize)

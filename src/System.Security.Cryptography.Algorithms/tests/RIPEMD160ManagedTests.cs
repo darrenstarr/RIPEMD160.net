@@ -4,22 +4,16 @@
 
 // Contributed to .NET Foundation by Darren R. Starr - Conscia Norway AS
 
-namespace System.Security.Cryptography
+namespace System.Security.Cryptography.Hashing.Algorithms.Tests
 {
-    public abstract class RIPEMD160 : System.Security.Cryptography.HashAlgorithm
+    /// <summary>
+    /// RIPEMD160Managed has a copy of the same implementation as RIPEMD160
+    /// </summary>
+    public class RIPEMD160ManagedTests : Sha384Tests
     {
-        public RIPEMD160()
-        {
-        }
-
-        public new static RIPEMD160 Create()
+        protected override HashAlgorithm Create()
         {
             return new RIPEMD160Managed();
-        }
-
-        public new static RIPEMD160 Create(string hashname)
-        {
-            return new RIPEMD160Managed();            
         }
     }
 }
