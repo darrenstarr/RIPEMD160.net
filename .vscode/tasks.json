@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/ripemd160.csproj"
+                "${workspaceRoot}/src/System.Security.Cryptography.Algorithms/src/ripemd160.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
