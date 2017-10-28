@@ -367,17 +367,16 @@ namespace System.Security.Cryptography
             compress(ref MDbuf, X);
         }
         static int RMDsize = 160;
-        UInt32 [] MDbuf = new UInt32 [] {
-            (UInt32)0x67452301,
-            (UInt32)0xefcdab89,
-            (UInt32)0x98badcfe,
-            (UInt32)0x10325476,
-            (UInt32)0xc3d2e1f0
-        };   /* contains (A, B, C, D(, E))   */
+        UInt32 [] MDbuf = new UInt32 [RMDsize / 32];
         UInt32 [] X = new UInt32[16];               /* current 16-word chunk        */
         byte [] UnhashedBuffer = new byte[64];
         int UnhashedBufferLength = 0;
         long HashedLength = 0;
+
+        public RIPEMD160Managed()
+        {
+            MDinit(ref MDbuf);
+        }
 
         protected override void HashCore (byte[] array, int ibStart, int cbSize)
         {
