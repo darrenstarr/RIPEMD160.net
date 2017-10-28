@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/ripemd160/ripemd160.csproj"
+                "${workspaceRoot}/ripemd160.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

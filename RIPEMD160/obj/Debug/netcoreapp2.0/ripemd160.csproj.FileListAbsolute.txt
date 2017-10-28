@@ -1,8 +1,0 @@
-c:\Development\RIPEMD160\ripemd160\obj\Debug\netcoreapp2.0\ripemd160.csproj.CoreCompileInputs.cache
-c:\Development\RIPEMD160\ripemd160\obj\Debug\netcoreapp2.0\ripemd160.AssemblyInfoInputs.cache
-c:\Development\RIPEMD160\ripemd160\obj\Debug\netcoreapp2.0\ripemd160.AssemblyInfo.cs
-c:\Development\RIPEMD160\ripemd160\bin\Debug\netcoreapp2.0\ripemd160.deps.json
-c:\Development\RIPEMD160\ripemd160\bin\Debug\netcoreapp2.0\ripemd160.dll
-c:\Development\RIPEMD160\ripemd160\bin\Debug\netcoreapp2.0\ripemd160.pdb
-c:\Development\RIPEMD160\ripemd160\obj\Debug\netcoreapp2.0\ripemd160.dll
-c:\Development\RIPEMD160\ripemd160\obj\Debug\netcoreapp2.0\ripemd160.pdb

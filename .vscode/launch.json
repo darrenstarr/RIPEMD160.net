@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/ripemd160/bin/Debug/netcoreapp2.0/ripemd160.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/ripemd160.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/ripemd160",
+            "cwd": "${workspaceRoot}",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,
